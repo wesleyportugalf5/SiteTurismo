@@ -1,14 +1,14 @@
 // sec1-principal - link interno
 
 const url = 'gramado.html'
-const haha = document.querySelector('.sec1-principal')
+const sec1Principal = document.querySelector('.sec1-principal')
 
 function openInNewTab(url) {
   const win = window.open(url, '_self')
   win.focus()
 }
 
-haha.addEventListener('click', () => {
+sec1Principal.addEventListener('click', () => {
   openInNewTab(url)
 })
 
