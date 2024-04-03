@@ -1,6 +1,6 @@
 // sec1-principal - link interno
 
-const url = 'gramado.html'
+const url = 'paginas/gramado.html'
 const sec1Principal = document.querySelector('.sec1-principal')
 
 function openInNewTab(url) {
